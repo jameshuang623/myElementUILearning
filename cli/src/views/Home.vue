@@ -1,7 +1,8 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <el-row>
+      <el-button type="success">按钮</el-button>
+    </el-row>
   </div>
 </template>
 
@@ -16,3 +17,5 @@ export default {
   }
 }
 </script>
+
+
