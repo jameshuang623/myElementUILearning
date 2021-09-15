@@ -23,6 +23,12 @@ const routes = [
 
   },
   {
+    path: '/iconlink',
+    name: 'IconLink',
+    component: () => import(/* webpackChunkName: "about" */ '../views/IconLink.vue')
+
+  },
+  {
     path: '/about',
     name: 'About',
     // route level code-splitting
