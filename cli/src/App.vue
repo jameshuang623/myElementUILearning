@@ -5,6 +5,7 @@
       <router-link to="/layout">Layout</router-link> |
       <router-link to="/container">Container</router-link> |
       <router-link to="/iconlink">IconLink</router-link> |
+      <router-link to="/button">Button</router-link> |
       <router-link to="/about">About</router-link>
     </div>
     <router-view/>
